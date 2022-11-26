@@ -1,9 +1,12 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Authconst } from '../Context/Authprovider';
 
 const Login = () => { 
-    const {signIn} = useContext(Authconst)
+    const {signIn, signInWithgoogle} = useContext(Authconst);
+    const location = useLocation();
+    const navigate = useNavigate();
+    const from = location.state?.from?.pathname || '/';
     const handleRegister = event=>{
         event.preventDefault()
         const form = event.target;
@@ -15,10 +18,21 @@ const Login = () => {
             const currentUser = {
                 email:user.email,
             }
+            navigate(from, {replace:true})
             console.log(currentUser);
         })
         .catch(err=> console.error(err))
     }
+    const handleGoogleSignIn =()=>{
+        signInWithgoogle()
+        .then(result=>{
+          const user = result.user;
+          console.log(user);
+        })   
+        .catch(error=> 
+         console.error(error))
+    } 
+
     return (
         <div>
             <div className="hero min-h-screen bg-warning mt-5 mb-5">
@@ -45,6 +59,7 @@ const Login = () => {
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Login</button>
+                                <button onClick={handleGoogleSignIn} className='bg-blue-600 text-black ms-5 border-0 p-2 mb-2 mt-2 rounded-lg'>GoogleSignIn</button>
                             </div>
                             <div>
                             <p>All ready have an account?<Link className='text-blue-600' to='/register'>Register</Link></p>
