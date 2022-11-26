@@ -2,154 +2,64 @@
     {
        
         "service_id": "04",
-        "title": "TV",
-        "img": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/news/20220916e2/_jcr_content/image/file.img.jpg",
+        "Brand":"Sony",
+        "catId":"11",
+        "title": "TV-Sony",
+        "img": "https://img.etimg.com/photo/msid-93539976,quality-100/sony-bravia-43-inches-4k-ultra-hd-smart-led-google-tv.jpg",
         "price": "25000",
-        "description": "tv onek valo amra tv te moview song dekhi and khela dekhi news dekhi etar eigula upokari side ",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "tv onek valo amra tv te moview song dekhi and khela dekhi news dekhi etar eigula upokari side "
+        
     },
     {
         "service_id": "05",
-        "title": "refrigerator",
-        "img": "https://media.istockphoto.com/id/842160124/photo/refrigerator-with-fruits-and-vegetables.jpg?s=612x612&w=0&k=20&c=j0W4TPOevBpp3mS6_X2FHV1uWVl3fcfdGAt2X3l8XzE=",
+        "Brand":"Walton",
+        "catId":"11",
+        "title": "TV-Walton",
+        "img": "https://www.getsview.com/wp-content/uploads/2018/07/Walton-55-inch-Smart-TV-BD.jpg",
         "price": "35000",
-        "description": "refrijeretor amader onek kaje use kori basar kaje use kori dokan er kaje use kori jemon basai amra refrigerator e fesh meet vagitable etc rakhi",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "refrijeretor amader onek kaje use kori basar kaje use kori dokan er kaje use kori jemon basai amra refrigerator e fesh meet vagitable etc rakhi"
+        
     },
     {
         "service_id": "01",
-        "title": "Camera",
-        "img": "https://media.istockphoto.com/id/152128250/photo/wide-angle-lens-on-a-camera.jpg?b=1&s=170667a&w=0&k=20&c=tKDlWW4zU4UCTPHC234cPgIHgB3895CCiZ_5df7PfaE=",
+        "Brand":"Samsung",
+        "catId":"12",
+        "title": "TV-Samsung",
+        "img": "https://images.samsung.com/is/image/samsung/levant-fhd-t5300-ua43t5300auxtw-frontblack-229857917?$650_519_PNG$",
         "price": "27000",
-        "description": "Camera amader life e onek kaje use kori amra like pic tuli bia bari pic tui others site use kori. etar price 27k amra tour e gele eta use kori",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Camera amader life e onek kaje use kori amra like pic tuli bia bari pic tui others site use kori. etar price 27k amra tour e gele eta use kori"
+        
     },
     
     {
         "service_id": "02",
-        "title": "Phone",
-        "img": "https://media.istockphoto.com/id/1324038801/photo/mobile-phone-in-hand-transparent-background-pattern.jpg?b=1&s=170667a&w=0&k=20&c=pDK87ygcEfouN4iLIcj-YToWZDPd8xifHlymibKrC14=",
+        "Brand":"LG",
+        "catId":"12",
+        "title": "TV-Rangs",
+        "img": "https://www.rangs.com.bd/product_image/RC-2130ASF.gif",
         "price": "20000",
-        "description": "phone amader jiboner ekti part ja amra protidin use kore thaki etar upokar side onek .phone diye amra kotha boli photo tuili phone diye facebook chalai etc.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "phone amader jiboner ekti part ja amra protidin use kore thaki etar upokar side onek .phone diye amra kotha boli photo tuili phone diye facebook chalai etc."
+        
     },
     {
         "service_id": "03",
-        "title": "Bedsheet",
-        "img": "https://m.media-amazon.com/images/I/71vDkHrBhTL._SL1500_.jpg",
+        "Brand":"Mytv",
+        "catId":"13",
+        "title": "TV-Mytv",
+        "img": "https://www.pcworld.com/wp-content/uploads/2021/09/pcw-windows10-tv-100829154-orig-1.jpg?quality=50&strip=all",
         "price": "10000",
-        "description": "Bedsheet amra protidin use kore thaki ghumate gele amra eta use kore thaki tachara amra boste gele use kore thaki etar price 10k protiti manush eta use kore thake",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Bedsheet amra protidin use kore thaki ghumate gele amra eta use kore thaki tachara amra boste gele use kore thaki etar price 10k protiti manush eta use kore thake"
+        
     },
     {
         "service_id": "06",
-        "title": "Bike",
-        "img": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90b3JiaWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "Brand":"LG",
+        "catId":"13",
+        "title": "TV-LG",
+        "img": "https://www.lg.com/us/images/tvs/md07521505/gallery/desktop-02.jpg",
         "price": "500000",
-        "description": "Bike amader fife er kaje ase bike niye amra onek dur jaite pari durer poth sohoz kore tole tachara bike niye amra versity, collage e jai.etar onek upokar site ase",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Bike amader fife er kaje ase bike niye amra onek dur jaite pari durer poth sohoz kore tole tachara bike niye amra versity, collage e jai.etar onek upokar site ase"
+        
     }
     
    
