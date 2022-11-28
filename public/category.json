@@ -1,16 +1,19 @@
 [
     {
         "catName":"Sony",
+        "category_id":"6381f608460053f520c82c21",
         "catId":"11",
         "catImg":"https://img.etimg.com/photo/msid-93539976,quality-100/sony-bravia-43-inches-4k-ultra-hd-smart-led-google-tv.jpg"
     },
     {
         "catName":"walton",
+        "category_id":"6381f608460053f520c82c22",
         "catId":"12",
         "catImg":"https://www.getsview.com/wp-content/uploads/2018/07/Walton-55-inch-Smart-TV-BD.jpg"
     },
     {
         "catName":"samsung",
+        "category_id": "6381f608460053f520c82c23",
         "catId":"13",
         "catImg":"https://electrabd.com/wp-content/uploads/2021/08/UA43AU8000RSER_003_L-Perspective_Black.png"
     }

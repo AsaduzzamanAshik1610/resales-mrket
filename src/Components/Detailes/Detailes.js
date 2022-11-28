@@ -1,25 +1,25 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import CategoryProducts from '../CategoryProducts/CategoryProducts';
+
 
 const Detailes = () => {
-    const userDetailes = useLoaderData()
-    console.log(userDetailes)
-    const { _id, img, title, description, price } = userDetailes;
+    const {id} = useParams();
+    const [products, setProducts] = useState([]);
+    useEffect(()=>{
+        fetch(`http://localhost:5000/products/${id}`)
+        .then(res=> res.json())
+        .then(data=>  setProducts(data))
+    },[id])
+    
     return (
-        <div className='m-5'>
-            <div className="card card-compact w-64 mx-auto gap-x-6 bg-black shadow-xl text-white">
-                <figure><img src={img}alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">{title}</h2>
-                    <p className='text-orange-600 text-2xl'>Price:{price}</p>
-                    <div className="card-actions justify-end">
-                         <button className="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-            <div>
-            <p className='bg-amber-400 text-black p-10 mt-5 rounded-lg'>{description}</p>
-            </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 ml-12 m-5 lg:grid-cols-2'>
+             {
+                products.map(product=><CategoryProducts
+                key={product}
+                product={product}
+                ></CategoryProducts>)
+             }
         </div>
     );
 };

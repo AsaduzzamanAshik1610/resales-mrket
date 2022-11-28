@@ -1,8 +1,10 @@
 [
     {
        
-        "service_id": "04",
         "Brand":"Sony",
+        "category_id":"6381f608460053f520c82c21",
+        "location":"Dhaka",
+        "Phone_Number":"017774997755",
         "catId":"11",
         "title": "TV-Sony",
         "img": "https://img.etimg.com/photo/msid-93539976,quality-100/sony-bravia-43-inches-4k-ultra-hd-smart-led-google-tv.jpg",
@@ -11,8 +13,10 @@
         
     },
     {
-        "service_id": "05",
         "Brand":"Walton",
+        "category_id":"6381f608460053f520c82c21",
+        "location":"Dhaka",
+        "Phone_Number":"017774997755",
         "catId":"11",
         "title": "TV-Walton",
         "img": "https://www.getsview.com/wp-content/uploads/2018/07/Walton-55-inch-Smart-TV-BD.jpg",
@@ -21,8 +25,10 @@
         
     },
     {
-        "service_id": "01",
         "Brand":"Samsung",
+        "category_id":"6381f608460053f520c82c22",
+        "location":"Bogra",
+        "Phone_Number":"01773221144",
         "catId":"12",
         "title": "TV-Samsung",
         "img": "https://images.samsung.com/is/image/samsung/levant-fhd-t5300-ua43t5300auxtw-frontblack-229857917?$650_519_PNG$",
@@ -32,8 +38,10 @@
     },
     
     {
-        "service_id": "02",
         "Brand":"LG",
+        "category_id":"6381f608460053f520c82c22",
+        "location":"Bogra",
+        "Phone_Number":"01773221144",
         "catId":"12",
         "title": "TV-Rangs",
         "img": "https://www.rangs.com.bd/product_image/RC-2130ASF.gif",
@@ -42,8 +50,10 @@
         
     },
     {
-        "service_id": "03",
         "Brand":"Mytv",
+        "category_id": "6381f608460053f520c82c23",
+        "location":"Chitagong",
+        "Phone_Number":"01999445533",
         "catId":"13",
         "title": "TV-Mytv",
         "img": "https://www.pcworld.com/wp-content/uploads/2021/09/pcw-windows10-tv-100829154-orig-1.jpg?quality=50&strip=all",
@@ -52,8 +62,10 @@
         
     },
     {
-        "service_id": "06",
         "Brand":"LG",
+        "category_id": "6381f608460053f520c82c23",
+        "location":"Chitagong",
+        "Phone_Number":"01999445533",
         "catId":"13",
         "title": "TV-LG",
         "img": "https://www.lg.com/us/images/tvs/md07521505/gallery/desktop-02.jpg",
