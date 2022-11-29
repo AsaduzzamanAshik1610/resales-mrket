@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import BookingModal from '../CategoryProducts/BookingModal/BookingModal';
 import ProductsDetails from '../ProductsDetails/ProductsDetails';
 
 const Products = () => {
@@ -9,7 +10,7 @@ const Products = () => {
         .then(data=> setProducts(data))
     },[])
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 ml-12 m-5 lg:grid-cols-3'>
+         <div className='grid grid-cols-1 md:grid-cols-2 ml-12 m-5 lg:grid-cols-3'>
             {
                 products.map(product=> <ProductsDetails
                 key = {product}

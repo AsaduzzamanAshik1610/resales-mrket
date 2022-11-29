@@ -9,6 +9,7 @@ import Detailes from './Components/Detailes/Detailes';
 import Dashboard from './Components/Dashboard/Dashboard';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import DashboardLayout from './Components/DashboardLayout/DashboardLayout';
+import MyProduct from './Components/Header/MyProduct/MyProduct';
 function App() {
   const router = createBrowserRouter([
     {
@@ -44,7 +45,7 @@ function App() {
       children:[
         {
           path:'/dashboard',
-          element:<Dashboard></Dashboard>
+          element:<MyProduct></MyProduct>
         }
       ]
     }

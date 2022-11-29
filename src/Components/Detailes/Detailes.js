@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import BookingModal from '../CategoryProducts/BookingModal/BookingModal';
 import CategoryProducts from '../CategoryProducts/CategoryProducts';
 
 
@@ -13,7 +14,8 @@ const Detailes = () => {
     },[id])
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 ml-12 m-5 lg:grid-cols-2'>
+        <section>
+            <div className='grid grid-cols-1 md:grid-cols-2 ml-12 m-5 lg:grid-cols-2'>
              {
                 products.map(product=><CategoryProducts
                 key={product}
@@ -21,6 +23,8 @@ const Detailes = () => {
                 ></CategoryProducts>)
              }
         </div>
+        <BookingModal></BookingModal>
+        </section>
     );
 };
 

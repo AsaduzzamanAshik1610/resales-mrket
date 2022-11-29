@@ -11,7 +11,8 @@ const CategoryProducts = ({product}) => {
                     <h2 className="card-title">Location:{location}</h2>
                     <p className='text-orange-600 text-2xl'>Price:{price}</p>
                     <div className="card-actions justify-end">
-                         
+                    {/* <button className="btn btn-primary">Booking Now</button> */}
+                    <label htmlFor="Booking-modal" className="btn">BookingNow</label>    
                     </div>
                 </div>
             </div>
