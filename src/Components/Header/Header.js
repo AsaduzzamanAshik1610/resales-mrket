@@ -18,6 +18,7 @@ const Header = () => {
                 <a className="btn btn-ghost normal-case text-xl">resales</a>
                 <Link className='mr-5' to='blog'>Blog</Link>
                 <Link className='mr-5' to='/'>Home</Link>
+                <Link className='mr-5' to='/dashboard'>Dsshboard</Link>
                 {user?.email && <span className='text-white'>{user?.email}</span>}
 
                 {
