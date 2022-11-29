@@ -7,6 +7,7 @@ import CategoryProducts from '../CategoryProducts/CategoryProducts';
 const Detailes = () => {
     const {id} = useParams();
     const [products, setProducts] = useState([]);
+    const [product, setProduct]= useState(null)
     useEffect(()=>{
         fetch(`https://used-resale-server.vercel.app/products/${id}`)
         .then(res=> res.json())
@@ -20,10 +21,16 @@ const Detailes = () => {
                 products.map(product=><CategoryProducts
                 key={product}
                 product={product}
+                setProduct= {setProduct}
                 ></CategoryProducts>)
              }
         </div>
-        <BookingModal></BookingModal>
+        {
+           product &&
+           <BookingModal
+            product={product}
+          ></BookingModal>
+        }
         </section>
     );
 };
