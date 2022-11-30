@@ -29,7 +29,7 @@ const Register = () => {
                             <form onSubmit={handleLogin} className="card-body">
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Name</span>
+                                        <span className="label-text"></span>
                                     </label>
                                     <label className="label">
                                         <span className="label-text">Email</span>
