@@ -29,6 +29,9 @@ const Register = () => {
                             <form onSubmit={handleLogin} className="card-body">
                                 <div className="form-control">
                                     <label className="label">
+                                        <span className="label-text">Name</span>
+                                    </label>
+                                    <label className="label">
                                         <span className="label-text">Email</span>
                                     </label>
                                     <input type="text" name='email' placeholder="email" className="input input-bordered" />
