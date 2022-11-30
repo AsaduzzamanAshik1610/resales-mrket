@@ -10,6 +10,7 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import DashboardLayout from './Components/DashboardLayout/DashboardLayout';
 import MyProduct from './Components/Header/MyProduct/MyProduct';
+import NotepageFound from './Components/NotepageFound/NotepageFound';
 function App() {
   const router = createBrowserRouter([
     {
@@ -48,6 +49,10 @@ function App() {
           element:<MyProduct></MyProduct>
         }
       ]
+    },
+    {
+      path:'*',
+      element:<NotepageFound></NotepageFound>
     }
   ])
 
