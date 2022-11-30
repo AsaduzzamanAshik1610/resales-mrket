@@ -11,6 +11,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import DashboardLayout from './Components/DashboardLayout/DashboardLayout';
 import MyProduct from './Components/Header/MyProduct/MyProduct';
 import NotepageFound from './Components/NotepageFound/NotepageFound';
+import OthersPage from './Components/OthersPage/OthersPage';
 function App() {
   const router = createBrowserRouter([
     {
@@ -35,9 +36,13 @@ function App() {
          },
          {
           path:'/products/:id',
-          element:<Detailes></Detailes>,
+          element:<PrivateRoute><Detailes></Detailes></PrivateRoute>,
           
          },
+         {
+          path:'/page',
+          element:<OthersPage></OthersPage>
+         }
       ]
     },
     {

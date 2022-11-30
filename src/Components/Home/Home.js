@@ -3,6 +3,7 @@ import pic1 from '../../assets/images/3204s-tv4.png'
 import pic2 from '../../assets/images/istockphoto-refrigerator.jpg'
 import pic3 from '../../assets/images/pexels-phone.webp'
 import pic4 from '../../assets/images/vizio-tv.webp'
+import OthersPage from '../OthersPage/OthersPage';
 import Products from '../Products/Products';
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
                 </div>
             </div>
             <Products></Products>
+            <OthersPage></OthersPage>
         </div>
     );
 };
